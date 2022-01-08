@@ -26,8 +26,8 @@ public class TutorialMod
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
-
-    public TutorialMod() {
+    public TutorialMod()
+    {
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
